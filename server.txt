@@ -1,0 +1,12 @@
+Route accessed: /books, Method: GET, Time: 2024-06-05T16:51:21.369Z
+Route accessed: /books, Method: GET, Time: 2024-06-05T16:52:57.254Z
+Route accessed: /books/3, Method: GET, Time: 2024-06-05T16:53:32.399Z
+Route accessed: /books, Method: GET, Time: 2024-06-05T16:53:36.869Z
+Route accessed: /books, Method: GET, Time: 2024-06-06T04:12:39.635Z
+Route accessed: /favicon.ico, Method: GET, Time: 2024-06-06T04:12:45.385Z
+Route accessed: /books, Method: GET, Time: 2024-06-06T04:12:53.639Z
+Route accessed: /favicon.ico, Method: GET, Time: 2024-06-06T04:12:53.780Z
+Route accessed: /favicon.ico, Method: GET, Time: 2024-06-06T04:13:01.801Z
+Route accessed: /books, Method: GET, Time: 2024-06-06T04:13:07.145Z
+Route accessed: /favicon.ico, Method: GET, Time: 2024-06-06T04:13:07.296Z
+Route accessed: /favicon.ico, Method: GET, Time: 2024-06-06T04:13:32.986Z

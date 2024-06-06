@@ -1,0 +1,124 @@
+body {
+    background-image: url('https://cdn.wallpapersafari.com/96/66/qhGnAH.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+.container {
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 40px;
+}
+h1, h2 {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+h1 {
+    animation: fadeIn 2s;
+    margin-bottom: 12px;
+}
+h2 {
+    text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 15px;
+}
+h1 {
+    margin: 10px 0;
+    color: #fff;
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    animation: fadeIn 2s;
+}
+.all-card {
+    height: 620px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.book-card {
+    margin-bottom: 20px;
+}
+.single-book {
+    min-width: 290px;
+    max-width: 350px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.all-card {
+    transition: all 0.2s ease-in-out;
+}
+.all-card:hover {
+    transform: scale(1.03);
+}
+.book-card {
+    margin-bottom: 20px;
+}
+.book-image {
+    height: 380px;
+    width: 100%;
+    aspect-ratio: 2/3;
+    object-fit: fill;
+}
+.add-book {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 1.5s;
+}
+.form-control::placeholder {
+    font-weight: bolder;
+    letter-spacing: 1.15;
+}
+.form-control {
+    background: #000;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid aqua;
+    padding: 15px;
+    color: #FFF;
+    transition: background 0.3s, border-color 0.3s;
+}
+.form-control:focus {
+    background: #212121;
+    color: #FFF;
+    outline: none;
+    border: 2px solid aqua;
+}
+.btn {
+    border-radius: 50px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.btn:hover {
+    transform: scale(1.1);
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
